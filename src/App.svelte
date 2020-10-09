@@ -5,7 +5,6 @@
 <style>
   main {
     text-align: center;
-    padding: 0 1em;
     min-height: 100vh;
     margin: 0 auto;
     display: flex;
@@ -16,12 +15,14 @@
   @media (min-width: 640px) {
     main {
       max-width: none;
+      padding: 0 1em;
     }
   }
 
   @media (max-width: 640px) {
     main {
       margin: 0;
+      padding: 0 0.2em;
     }
   }
 </style>
