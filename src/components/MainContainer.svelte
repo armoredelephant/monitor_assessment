@@ -1,6 +1,7 @@
 <style>
   .main-container {
     min-height: 575px;
+    max-width: 440px;
     text-align: center;
     display: flex;
     flex-flow: column;
