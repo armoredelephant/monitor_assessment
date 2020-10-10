@@ -16,3 +16,10 @@ export interface Monitor {
 export interface Monitors {
   monitor: Monitor[];
 }
+
+export interface contactInfo {
+  name: string,
+  ref: string,
+  email: string,
+  count: number
+}
