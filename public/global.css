@@ -49,11 +49,11 @@ input:disabled {
   color: #ccc;
 }
 
-button {
+/* button {
   color: #333;
   background-color: #f4f4f4;
   outline: none;
-}
+} */
 
 button:disabled {
   color: #999;
@@ -65,4 +65,28 @@ button:not(:disabled):active {
 
 button:focus {
   border-color: #666;
+}
+
+button {
+  min-width: 137px;
+  text-decoration: none;
+  border: 1px solid #000;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  padding: 0.5em 1.2em;
+  height: 2.7rem;
+  max-width: 15rem;
+  letter-spacing: 0.14rem;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  align-self: center;
+}
+
+button:active,
+button:hover,
+button:focus {
+  border: 1px solid #000;
 }
