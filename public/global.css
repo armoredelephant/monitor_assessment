@@ -90,3 +90,16 @@ button:hover,
 button:focus {
   border: 1px solid #000;
 }
+
+.field-wrapper:last-of-type {
+  padding-bottom: 0;
+}
+
+.field-wrapper {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row;
+  padding-bottom: 0.5rem;
+  text-transform: capitalize;
+}
